@@ -15,7 +15,7 @@ export const unstable_settings = {
   initialRouteName: "(tabs)",
 };
 
-function CustomDrawerContent(props) {
+function CustomDrawerContent(props: any) {
   return (
     <DrawerContentScrollView {...props}>
         <Text style={{ alignSelf: 'center', fontSize: 20 }}>Vadim</Text>
